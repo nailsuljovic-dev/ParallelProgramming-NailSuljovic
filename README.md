@@ -1,5 +1,5 @@
 # ParallelProgramming-NailSuljovic
-gcc -Wall -Wextra -g -std=c99 -o program main.c
+##gcc -Wall -Wextra -g -std=c99 -o program main.c
 main.c: In function ‘main’:
 main.c:7:44: warning: ‘ipos’ may be used uninitialized [-Wmaybe-uninitialized]
     7 |     for (int i = 0; i<=10; i++){ iarray[i] = ipos; }
