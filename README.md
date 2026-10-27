@@ -4,12 +4,12 @@
 
 ## AoSoA measurement
 
-1. I've allocated an AoSoA of size numblocks (size of array / vector size)
+1. Allocated an AoSoA of size numblocks (size of array / vector size)
 ```cpp
 SoA_type* AoSoA = new SoA_type[num_blocks];
 ``` 
 
-2. I've uncommented lines
+2. Uncommented lines
 ```cpp
 AoSoA[j].R[i] = rand();
 AoSoA[j].G[i] = rand();
@@ -22,7 +22,7 @@ delete[] AoSoA;
 
 ## Makefile changes
 
-1. I've added TARGET_SRC for my .cpp file and added 100M test
+1. Added TARGET_SRC for my .cpp file and added 100M test
 ```
 TARGET_SRC = aosoa_measurement.cpp
 ```
@@ -39,3 +39,5 @@ make test_100M
 Google spreadsheet link:
 https://docs.google.com/spreadsheets/d/1Lxl2LQcnh4qo6KGsnRuTS1DOEc3IsV2d57W7SDXfHYg/edit?usp=sharing
 
+## Graph created
+![graph](https://github.com/nailsuljovic-dev/ParallelProgramming-NailSuljovic/blob/assignment-3/graph.png)
