@@ -22,3 +22,7 @@
 - Kahan/Knuth sum is more accurate than standard but it's sequential meaning parallelization is harder
 - Pair-wise sum is very good for parallelization because different threads can compute partial sums at the same time
 
+Google sheets link: https://docs.google.com/spreadsheets/d/1vE_4GxToLfvh0gBTp9HOPO0gVxc5rOaJi5ghXjZkfAU/edit?gid=0#gid=0
+
+
+![terminal](https://github.com/nailsuljovic-dev/ParallelProgramming-NailSuljovic/blob/assignment-4/terminal.png)
