@@ -1,4 +1,4 @@
-# parallel-programmingg
+# parallel-programming
 
 First thing I've done is run make
 ```bash
